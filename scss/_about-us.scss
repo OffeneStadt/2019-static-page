@@ -1,0 +1,137 @@
+/*===============about-us css==================*/
+.about-us-area{
+    h4{
+        font: 400 14px/24px $mount;
+        color: $black;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    .about-texts{
+        h4{
+            padding-bottom: 17px;
+        }
+        p{
+            font: 400 14px/24px $lato;
+            color: $dark-gray;
+        }
+        .progress-element{
+            p{
+                font: 400 10px/36px $mount;
+                color: $black;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                padding-top: 16px;
+            }
+            & + p{
+                padding-top: 5px;
+            }
+            .progress{
+                height: 10px;
+                background: #dddddd;
+                box-shadow: none;
+                border-radius: 0px;
+                margin-bottom: 0px;
+                
+                .progress-bar{
+                    background: $black;
+                }
+            }
+        }
+    }
+    .about-right{
+        padding-left: 75px;
+        h4{
+            padding-left: 10px;
+            padding-bottom: 23px;
+        }
+        .clients-logos{
+            .clients-logo{
+                width: 150px;
+                height: 150px;
+                border: 1px solid #ddd;
+                margin: 0 auto;
+                text-align: center;
+                line-height: 144px;
+                img{
+                    max-width: 100%;
+                    width: auto;
+                    display: inline-block;
+                }
+                & + .clients-logo{
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}
+
+/*============End about-us area ============*/
+
+/*============Start service area ============*/
+.services-area{
+    padding: 100px 0px 33px;
+    .section-title{
+        padding-bottom: 115px;
+    }
+    .services{
+        .services-items{
+            padding-top: 55px;
+            padding-bottom: 57px;
+        }
+        .icon{
+            bottom: -25px;
+            top: auto;
+        }
+        .service-btn{
+            top: -20px;
+            bottom:auto;
+        }
+    }
+}
+.services-items{
+    border: 1px solid $black;
+    position: relative;
+    padding: 69px 28px 43px 30px;
+    transition: all 0.5s ease-in-out;
+    cursor: nesw-resize;
+    margin-bottom: 103px;
+    .icon{
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        position: absolute;
+        transform: rotate(45deg);
+        top: -26px;
+        left: 43%;
+        background: #fff;
+        i{
+            transform: rotate(-45deg);
+        }
+    }
+    p{
+        font: 400 14px/24px $lato;
+        color: $dark-gray;
+        transition: all 0.5s ease-in-out;
+    }
+    .service-btn{
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.5s ease-in-out;
+        &:hover{
+            color: #999;
+        }
+    }
+    &:hover{
+        background: $black;
+        p{
+            color: #fff;
+        }
+    }
+}
+/*============End service area ============*/

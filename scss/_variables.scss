@@ -1,0 +1,22 @@
+/*========font===========*/
+$lato:'Lato', sans-serif;
+$mount:'Montserrat', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Montserrat:400,700');
+
+/*====color====*/
+$dark-gray:#424242;
+$black:#000;
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay;
+}
+
+//contact-form-mixin
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}

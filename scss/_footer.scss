@@ -1,0 +1,45 @@
+/*========= Start footer area css ========*/
+.footer-area{
+    background: $black;
+    position: relative;
+    .footer-content{
+        text-align: center;
+        .scroll-t{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: $black;
+            transform: rotate(45deg);
+            top: -25px;
+            left: 49%;
+            color: #fff;
+            cursor: pointer;
+            i{
+                transform: rotate(-45deg);
+                font-size: 18px;
+                line-height: 50px;
+            }
+        }
+        .logo{
+            img{
+                max-width: 100%;
+            }
+        }
+        h6{
+            font:400 14px/24px $lato;
+            color: #999;
+            padding-top: 92px;
+            padding-bottom: 16px;
+            a{
+                color:#fff;
+            }
+        }
+        p{
+            font: 400 10px/22px $mount;
+            color: #fff;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+    }
+}
+/*========= End footer area css ========*/
