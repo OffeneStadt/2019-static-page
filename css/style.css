@@ -45,7 +45,7 @@ Table of Content:
 
 body {
   font: 400 14px/25px "Lato", sans-serif;
-  color: #424242;
+  color: #1F446C;
 }
 
 a, .btn, button {
@@ -88,8 +88,8 @@ p {
 }
 .section-title h2 {
   font: 700 24px/30px "Montserrat", sans-serif;
-  color: black;
-  border: 3px solid black;
+  color: #1F446C;
+  border: 3px solid #A1C2E6;
   text-transform: uppercase;
   display: inline-block;
   padding-left: 30px;
@@ -97,7 +97,7 @@ p {
 }
 .section-title h2 i {
   padding: 15px 28px;
-  border-left: 3px solid black;
+  border-left: 3px solid #A1C2E6;
   margin-left: 22px;
 }
 
@@ -123,11 +123,11 @@ p {
 .service-btn {
   font: 400 14px "Montserrat", sans-serif;
   letter-spacing: 3px;
-  color: black;
-  border: 1px solid black;
+  color: #fff;
+  border: 1px solid #A1C2E6;
   text-transform: uppercase;
   padding: 10px 27px 10px 30px;
-  background: #fff;
+  background: #A1C2E6;
   min-width: 200px;
   text-align: center;
 }
@@ -245,7 +245,7 @@ p {
 .header .header-navigation {
   padding: 0px 100px;
   display: flex;
-  background: black;
+  background: #1F446C;
   transition: all 5s ease-in-out;
 }
 .header .header-navigation .left-side {
@@ -557,7 +557,7 @@ p {
   margin-bottom: 0px;
 }
 .about-us-area .about-texts .progress-element .progress .progress-bar {
-  background: black;
+  background: #A1C2E6;
 }
 .about-us-area .about-right {
   padding-left: 75px;
@@ -569,7 +569,7 @@ p {
 .about-us-area .about-right .clients-logos .clients-logo {
   width: 150px;
   height: 150px;
-  border: 1px solid #ddd;
+  border: 1px solid #E1C721;
   margin: 0 auto;
   text-align: center;
   line-height: 144px;
@@ -605,7 +605,7 @@ p {
 }
 
 .services-items {
-  border: 1px solid black;
+  border: 1px solid #1F446C;
   position: relative;
   padding: 69px 28px 43px 30px;
   transition: all 0.5s ease-in-out;
@@ -615,7 +615,7 @@ p {
 .services-items .icon {
   width: 50px;
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid #1F446C;
   font-size: 24px;
   line-height: 50px;
   text-align: center;
@@ -645,7 +645,7 @@ p {
   color: #999;
 }
 .services-items:hover {
-  background: black;
+  background: #476283;
 }
 .services-items:hover p {
   color: #fff;
@@ -865,21 +865,21 @@ p {
   text-transform: uppercase;
   color: black;
   display: inline-block;
-  border: 1px solid black;
+  border: 1px solid #1F446C;
   padding: 9px 30px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
   letter-spacing: 3px;
 }
 .work-area .filter_row .work_filter li:hover {
-  background: black;
+  background: #A1C2E6;
   color: #fff;
 }
 .work-area .filter_row .work_filter li + li {
   margin-left: 27px;
 }
 .work-area .filter_row .work_filter li.active {
-  background: black;
+  background: #1F446C;
   color: #fff;
 }
 .work-area .work-gallery {
@@ -966,7 +966,7 @@ p {
 .priceing-area .price-item .icon {
   width: 64px;
   height: 64px;
-  background: black;
+  background: #A1C2E6;
   top: -33px;
   left: 42%;
   transition: all 0.5s ease-in-out;
@@ -1301,7 +1301,7 @@ p {
 /*====================================================*/
 /*========= Start footer area css ========*/
 .footer-area {
-  background: black;
+  background: #1F446C;
   position: relative;
 }
 .footer-area .footer-content {
