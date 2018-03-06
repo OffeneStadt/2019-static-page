@@ -369,7 +369,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 13px;
 }
-.main_slider_area .img-overlay .slider_text ul li:nth-child(3), .main_slider_area .img-overlay .slider_text ul li:nth-child(7) {
+.main_slider_area .img-overlay .slider_text ul li:nth-child(7), .main_slider_area .img-overlay {
   padding-left: 35px;
 }
 .main_slider_area .img-overlay .slider_text p {
