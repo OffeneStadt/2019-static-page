@@ -47,7 +47,9 @@ body {
   font: 400 14px/25px "Lato", sans-serif;
   color: #1F446C;
 }
-
+.img-responsive {
+  margin: 0 auto;
+}
 a, .btn, button {
   text-decoration: none;
   outline: none;
@@ -888,7 +890,7 @@ p {
 .work-area .work-gallery .work-item {
   padding: 0px 10px;
   margin-bottom: 48px;
-  cursor: nesw-resize;
+  /* cursor: nesw-resize; */
   overflow: hidden;
 }
 .work-area .work-gallery .work-item .img {
@@ -907,9 +909,11 @@ p {
   opacity: 0;
   transform-origin: top;
   transform: translateY(-100%);
+  pointer-events: none;
 }
 .work-area .work-gallery .work-item .img img {
   max-width: 100%;
+  display: block;
 }
 .work-area .work-gallery .work-item h2 {
   font: 400 14px "Montserrat", sans-serif;
