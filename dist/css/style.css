@@ -1352,3 +1352,12 @@ p {
 /*# sourceMappingURL=style.css.map */
 
 
+.vorl-programm-img {
+  width: 100%;
+    overflow: hidden;
+}
+
+.vorl-programm-img a img {
+  width: 100%;
+    height: auto;
+}
