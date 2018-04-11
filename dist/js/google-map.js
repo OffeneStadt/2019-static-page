@@ -13,7 +13,7 @@
             mapTypeControl: false,
             scaleControl: false,
             // center: new google.maps.LatLng(22.952635, 91.282526),
-            center: new google.maps.LatLng(53.5434675, 9.9853118),
+            center: new google.maps.LatLng(53.543439, 9.984024),
             styles: [
                 {"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},        
                 {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#e3e3e3"},{"lightness":20}]},
