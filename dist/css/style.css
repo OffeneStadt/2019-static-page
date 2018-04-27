@@ -35,6 +35,24 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Montserrat:400,700");
 /*====color====*/
 /*====================================================*/
+
+#lightgallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+#lightgallery a {
+  position: relative;
+}
+
+#lightgallery img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
 .m0 {
   margin: 0;
 }

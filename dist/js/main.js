@@ -1,5 +1,6 @@
-;(function($){
+; (function ($) {
     "use strict";
+    lightGallery(document.getElementById('lightgallery'));
     
     /*----------------------------------------------------*/
     /*  Main slider js
